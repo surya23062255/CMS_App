@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-image: url(./Components/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+thead tr th {
+  background-image: linear-gradient(
+    rgba(255, 2, 2, 0.226),
+    rgba(0, 12, 184, 0.274)
+  );
+}
+tbody tr td {
+  background-image: radial-gradient(
+    rgba(0, 168, 197, 0.733),
+    rgba(164, 117, 17, 0.45)
+  );
+}
+h3 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+hr {
+  height: 5px;
+  background: white;
+}
